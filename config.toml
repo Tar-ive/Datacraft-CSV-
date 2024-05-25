@@ -1,0 +1,48 @@
+[css]
+sidebar = """
+/* Sidebar customizations */
+.sidebar .sidebar-content {
+    background-color: #333333;
+    color: #ffffff;
+}
+.sidebar .sidebar-content a {
+    color: #ffffff;
+}
+.sidebar .sidebar-content a:hover {
+    color: #ffffff;
+}
+.sidebar .sidebar-content button {
+    background-color: #333333;
+    color: white;
+}
+.sidebar .sidebar-content button:hover {
+    background-color: #ffffff;
+    color: white;
+}
+"""
+
+main = """
+/* Main content customizations */
+body {
+    background-color: #1e1e1e;
+    color: #1e1e1e;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #ffffff;
+}
+.stButton>button {
+    background-color: #333333;
+    color: white;
+}
+.stButton>button:hover {
+    background-color: #1e1e1e;
+    color: white;
+}
+.plotly-graph-div .plotly {
+    background-color: #1e1e1e !important;
+    color: #ffffff !important;
+}
+"""
+
+[welcome_image]
+path = "prompthero-prompt-ff9bdc63ada.png"
